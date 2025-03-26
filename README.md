@@ -1,7 +1,3 @@
 # DEV_WEBIOS_2025_01
 
-Olá mundo
-  
-  Socorro WORLD
-
-  Git Vei podi
+Desenvolvimento Web 2025 Turma 2025 Turma n2 Primeiro semestre
