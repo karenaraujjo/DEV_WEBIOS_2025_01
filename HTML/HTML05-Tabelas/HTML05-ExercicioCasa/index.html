@@ -1,30 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        th {
+            border: pink;
+        }
+    </style>
 </head>
+
 <body>
 
     <table>
-       <tr> <th>Id do Produto</th> <th>Nome Produto</th> <th>Valor Unitário</th> <th>Nível do Estoque</th> <th>Quantidade em Estoque</th> <th>Total Vendidos</th> </tr>
-       <tr>  <td>0001</td> <td>Arroz</td> <td>R$10,00</td> <td>Alto</td> <td>150</td> <td>80</td> </tr>
-       <tr> <td>002</td> <td>Farelo de Aveia</td> <td>R$5,00</td> <td>Médio</td> <td>60</td> <td>10</td> </tr>
-       <tr> <td>003</td> <td>Carne Patinho</td> <td>R$45,00</td> <td>Médio</td> <td>55</td> <td>30</td> </tr>
-       <tr> <td>004</td> <td>Ovos</td> <td>R$24,90</td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>005</td> <td>Pão de Forma</td> <td>5,00</td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>006</td> <td>Coca Zero 1,5L</td> <td>R$13,44</td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>007</td> <td>Leite Zero Lactose</td> <td></td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>008</td> <td>Sabão em Pó</td> <td>5,99</td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>009</td> <td>Detergente</td> <td>2,00</td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>0010</td> <td>Sabão Líquido</td> <td></td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>0011</td> <td>Pasta de dente</td> <td></td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>0012</td> <td>Vassoura</td> <td></td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>0013</td> <td>Cloro</td> <td></td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>0014</td> <td>Esponja</td> <td></td> <td></td> <td></td> <td></td> </tr>
-       <tr> <td>Volar Total</td> <td colspan="3" >Inserir VALOR##</td> </tr>
+
+        <tr>
+            <th>Id do Produto</th>
+            <th>Nome Produto</th>
+            <th>Valor Unitário</th>
+            <th>Nível do Estoque</th>
+            <th>Quantidade em Estoque</th>
+            <th>Total Vendidos</th>
+        </tr>
+        <tr>
+            <td>A01</td>
+            <td>Arroz</td>
+            <td>R$10,00</td>
+            <td>Alto</td>
+            <td>150</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>B02</td>
+            <td>Farelo de Aveia</td>
+            <td>R$5,00</td>
+            <td>Médio</td>
+            <td>60</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>C03</td>
+            <td>Carne Patinho</td>
+            <td>R$45,00</td>
+            <td>Médio</td>
+            <td>55</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>D04</td>
+            <td>Ovos</td>
+            <td>R$24,90</td>
+            <td>Baixo</td>
+            <td>10</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>E05</td>
+            <td>Pão de Forma</td>
+            <td>5,00</td>
+            <td>Médio</td>
+            <td>30</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>F06</td>
+            <td>Coca Zero 1,5L</td>
+            <td>R$13,44</td>
+            <td>Alto</td>
+            <td>250</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>G07</td>
+            <td>Leite Zero Lactose</td>
+            <td>R$6,00</td>
+            <td>Médio</td>
+            <td>30</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>H08</td>
+            <td>Sabão em Pó</td>
+            <td>R$5,99</td>
+            <td>Baixo</td>
+            <td>15</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>I09</td>
+            <td>Detergente</td>
+            <td>R$2,00</td>
+            <td>Baixo</td>
+            <td>19</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>J010</td>
+            <td>Sabão Líquido</td>
+            <td>R$40,00</td>
+            <td>Alto</td>
+            <td>80</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>K011</td>
+            <td>Pasta de dente</td>
+            <td>R$5,00</td>
+            <td>Alto</td>
+            <td>100</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>L012</td>
+            <td>Vassoura</td>
+            <td>R$20,00</td>
+            <td>Baixo</td>
+            <td>8</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>M013</td>
+            <td>Cloro</td>
+            <td>R$10,00</td>
+            <td>Médio</td>
+            <td>50</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>N014</td>
+            <td>Esponja</td>
+            <td>R$2,00</td>
+            <td>Baixo</td>
+            <td>22</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Valar Total</td>
+            <td colspan="3">R$103,43</td>
+        </tr>
+
     </table>
-    
+
 </body>
+
 </html>
