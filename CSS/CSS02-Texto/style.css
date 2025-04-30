@@ -1,0 +1,28 @@
+H1{
+    /* cor do texto usando decimal */
+     color: rgb(5, 5, 5);   /* red, green, blue */
+
+    /* cor do texto usando hexadecimal */
+    background-color: #FF69B4; /* FF-red, 00-green, 00-blue */
+
+    font-size: 70px;
+
+    text-align: center;
+    
+}
+
+body{
+    font-family: "Sour Gummy", sans-serif;
+
+    font-weight: 400;
+
+    font-style: oblique;
+
+    line-height: 30px;
+}
+
+h2{
+    text-shadow: 3px 3px 5px lightpink  ;
+
+    /*deslocamento horizontal na somnbra, deslocamento vertical da sombra, raio do borrado (opcional) e cor  */
+}
