@@ -1,3 +1,12 @@
+*{
+margin: 0;
+}
+
+div section{
+    background-color: rgb(230, 197, 225);
+}
+
+
 /* para sinalizar que eu vou chamar um id o nome dever vir acompanhado no início pelo jogo da velha (#) */
 
 #div1{
