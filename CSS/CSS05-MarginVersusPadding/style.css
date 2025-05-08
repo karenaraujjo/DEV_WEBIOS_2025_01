@@ -1,0 +1,21 @@
+margin: auto
+widght:
+
+#div1{
+    border: 10px solid pink,
+
+    /* * espaço externo  */ 
+/* margin-bottom:25px */
+    /* top, right, bottom, left */
+/* margin: 50px, 40px, 90px, 25px */
+/* Formato cruz
+    (top, bottom, right, left */
+/* margin: 90px 10% */
+/* top, (right, bottom), left */
+/* margin: 20px 5% 1.5rem */
+/* Aplicar o mesmo px para os 4 lados */
+/* margin: 125px */
+}
+/
+
+    
