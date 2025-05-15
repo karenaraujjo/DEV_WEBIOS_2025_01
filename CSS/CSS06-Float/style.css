@@ -1,3 +1,9 @@
+*{
+    margin: auto;
+    width: 90%;
+}
+
+
 .Divs{
     border: 2px solid black; 
     clear: both;
@@ -13,25 +19,79 @@
     width: 300px;
     float: left;
     margin-right: 40px;
+    border-radius: 5%;
+    font-size: 25px;
+    /* transition: width 5s, height 5s transform 5s; */
+
 }
 
-#imgNaruto{
+#TabelaSoraia{
+    width: 50%;
+    border: 1px solid;
+
+}
+
+#ParagrafoSoraia{
+    font-size: 25px;
+    margin-top: 80px;
+    color: red;
+}
+
+/* td=conteúdo da tabela */
+
+td{
+    width: 50%;
+    border: 1px solid;
+    margin-top: 20px;
+    border-radius: 5%;
+    border-collapse: collapse;
+}
+
+/* #imgSoraia:hover{
+width: 700px;
+height: 700px;
+transform: rotate(180deg);
+} */
+
+#
+imgNaruto{
     height: 400px;
     width: 700px;
     float: right;
+    transition: opacity 0.9s;
+
 }
+
+
+#imgNaruto:hover{
+    opacity: 0;
+}
+
+
+#paragrafoNaruto::first-letter{
+    font-size: 25px;
+    color: pink;
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+}
+
 
 #imgGodOfWar{
     height: 400px;
     width: 400px;
+    float: left;
 }
+
 
 #imgRed{
     height: 400px;
     width: 400px;
+    float: right;
 }
+
 
 #Gif{
     height: 400px;
     width: 400px;
+    margin-left: 15%
 }
