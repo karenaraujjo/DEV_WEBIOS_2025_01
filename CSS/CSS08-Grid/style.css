@@ -1,0 +1,10 @@
+.container{
+    border: 1px solid #FF69B4;
+}
+
+.itens{
+    width: 35%;
+    height: 35%;
+    border: 1px solid #C71585;
+    font-size: 150%px;
+}
