@@ -1,16 +1,61 @@
+body{
+    height: 600px;
+    border: 1px solid black;
+}
+
 .container{
+    height: 600px;
     border: 1px solid #FF69B4;
     display: grid;
     /* grid-template-columns (colunas / grid-template-rows (linhas)*/
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50px  50px 50px 50px;
+    grid-template-columns: repeat(4, 20%);
+    /* grid-template-columns: repeat(4, 1fr) = Para repetir o tanto de colunas digitado dentro do parênteses. O 1º valor é quantidade de colunas, o 2º valor é o tamanho */
+    /* fr= fração; significa que será divido em partes iguais */
+    /* grid-template-columns: 25% 25% 25% 25% = sem usar repeat, portanto, cada valor significa uma coluna*/
+    grid-template-rows: repeat(2, 150px);
+    /* grid-template-rows: repeat(2, 50px) = Para repetir o tanto de colunas digitado dentro do parênteses. O 1º valor é quantidade de colunas, o 2º valor é o tamanho */
+    /* fr= fração; significa que será divido em partes iguais*/
+    /* grid-template-rows: 50px 50px ; sem usar repeat, portanto, cada valor significa uma coluna */
 
+    /* column-gap = para separar uma coluna da outra */
+    column-gap: 10px;
+    /* espaço entre colunas */
+
+    /* row-gap = para separar uma linha da outra */
+    row-gap: 15px;
+    /* espaço entre linhas */
+
+    /* justify-items= alinha horizontalmente os itens do grid */
+    /* star= valor padrão */
+    justify-items: center;
+    /*  justify-items: center; = elemento no centro */
+    /* justify-items: end; = elemento na direita */
+    /* justify-items: stretch; = elemento copa todo o valor da célula */
+
+    /* align-items= vertical VS justify-items= horizontal */
+
+    /*  align-items= alinha verticalmente os itens do grid */
+    align-items: center;
+    /* align-items: center; = os elementos ficam no centro */
+    /* align-items: end; = os elementos ficam na base */
+
+    /* justify-content = move o grid na tela */
+    /*justify-content= mover o container na horizontal */
+    /* space-around = separa as colunas com tamanho uniforme entre elas */
+    /* space-between = espaço uniforme entre as colunas, mas nas bordas esquerdas e direita ele cola o elemento, ou seja, fica grudado na lateral da tela */
+    /* space-evenly= espaço uniforme entre cada elemento */
+
+    justify-content: space-evenly;
+
+    /* align-content é espaço entre linhas */
+    /* align-content= mover o container na vertical */
+    align-content: space-evenly;
 
 }
 
 .itens{
-    /* width: 35%;
-    height: 100px; */
+    width: 100%;
+    height: 100%;
     border: 1px solid #C71585;
     font-size: 150%px;
 }
