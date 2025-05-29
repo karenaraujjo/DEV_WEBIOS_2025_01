@@ -67,3 +67,67 @@ body{
     /* grid-row=referente as linhas horizontais */
    
 }
+
+/* A partir dos código abaixo aula 09 sobre GRID */
+
+#container2{
+    display: grid;
+    /* Grid de 3x4 */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 70px);
+   
+}
+
+#item01{
+    border: 1px solid yellow;
+    grid-column: 1 / 4;
+    width: 70%;
+    justify-self: center;
+    /* justify-self= center = vai centralizar o elemento dentro das células no eixo horizontal */
+}
+
+#item02{
+    border: 1px solid green;
+
+}
+
+#item03{
+    border: 1px solid blue;
+    grid-column: 3 / 4;
+}
+
+#item04{
+    border: 1px solid brown;
+    grid-column: 2 / 4 ;
+}
+
+#item06{
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    border: 1px solid red;
+    height: 60%;
+    align-self: center;
+    /* align-self = mover um unico elemento de cima para baixo no eixo vertical */
+}
+
+#item05{
+    border: 1px solid ;
+    grid-column:  3 / 4;
+    height: 70%;
+    width: 70%;
+    justify-self: center;
+    /*  justify-self: center; = EIXO HORIZONTAL */
+    align-self: center;
+    /*align-self: center; = EIXO VERTICAL  */
+    place-self: center;
+    /* place-self: center; = JUNÇÃO do align-self e place-self */
+} 
+
+/*CONCEITOS QUE SE REPETEM:  */
+/* align = eixo vertical */
+/* justify = eixo horizontal */
+/* item = itens */
+/* content = as celulas e container do grid */
+/* colum = retas verticais */
+/* row = retas horizontais */
+/* self = para mexer em um único elemento (item) */

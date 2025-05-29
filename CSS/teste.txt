@@ -1,0 +1,7 @@
+/* align = eixo vertical */
+/* justify = eixo horizontal */
+/* item = itens */
+/* content = as celulas e container do grid */
+/* colum = retas verticais */
+/* row = retas horizontais */
+/* self = para mexer em um único elemento */
