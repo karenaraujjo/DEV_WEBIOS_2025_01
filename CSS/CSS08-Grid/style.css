@@ -12,7 +12,7 @@ body{
     /* grid-template-columns: repeat(4, 1fr) = Para repetir o tanto de colunas digitado dentro do parênteses. O 1º valor é quantidade de colunas, o 2º valor é o tamanho */
     /* fr= fração; significa que será divido em partes iguais */
     /* grid-template-columns: 25% 25% 25% 25% = sem usar repeat, portanto, cada valor significa uma coluna*/
-    grid-template-rows: repeat(2, 150px);
+    grid-template-rows: auto;
     /* grid-template-rows: repeat(2, 50px) = Para repetir o tanto de colunas digitado dentro do parênteses. O 1º valor é quantidade de colunas, o 2º valor é o tamanho */
     /* fr= fração; significa que será divido em partes iguais*/
     /* grid-template-rows: 50px 50px ; sem usar repeat, portanto, cada valor significa uma coluna */
@@ -58,4 +58,12 @@ body{
     height: 100%;
     border: 1px solid #C71585;
     font-size: 150%px;
+}
+
+#item1{
+    /* grid-column=referente as linhas verticais */
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    /* grid-row=referente as linhas horizontais */
+   
 }
