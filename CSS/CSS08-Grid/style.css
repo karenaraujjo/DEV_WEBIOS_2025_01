@@ -7,7 +7,7 @@ body{
     height: 600px;
     border: 1px solid #FF69B4;
     display: grid;
-    /* grid-template-columns (colunas / grid-template-rows (linhas)*/
+    /* grid-template-columns (colunas) / grid-template-rows (linhas)*/
     grid-template-columns: repeat(4, 20%);
     /* grid-template-columns: repeat(4, 1fr) = Para repetir o tanto de colunas digitado dentro do parênteses. O 1º valor é quantidade de colunas, o 2º valor é o tamanho */
     /* fr= fração; significa que será divido em partes iguais */
