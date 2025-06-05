@@ -1,5 +1,5 @@
 var idade
-const ano 
+// const ano
 //JavaScript
 console.log("Hello world") // log serve para apresentar uma mensagem 
 
@@ -17,7 +17,7 @@ console.log(resultado)
 idade = 89 // Inicar a variável em outra parte do código
 console.log(idade)
 
-ano = 1936
+// ano = 1936
 const PI = 3.14
 
 // Textos  - Strings (significa textos) =
@@ -30,9 +30,47 @@ console.log(nome2)
 console.log(nome3)
 console.log(nome1, nome2, nome3) // Para inserir todos os nomes de uma vez, uiliza vírgula.
 
+//Pesquisar concatenar
+
+console.log("Olá", + "papai");  // Concatenar 1
+console.log("Aluno" + nome + "e Aluno" + nome2 + 'Tem um total de ' + nome3 + "dinheiros") // Concatenar2
+
+//Template String
+console.log(`Aluno ${nome} e Aluno ${nome2} Tem um total de ${nome3} dinheiros`) // Concatenar3
+
 //var = Flexível, menos regras (Posso alterar o valor inicial de uma var e recriar a mesma em outras partes do código)
 
 //let = não pode duplicar o nome, mas pode alterar o nome 
 // let = Você não pode recriar a mesma em outras partes do código com o mesmo nome, mas pode chamar e alterar o valor inicial
 
 //const= Você não  pode recriar a mesma em outras partes  do codigo e não pode alterar o valor inicial dela garantindo a confiança do dado que esta sendo utilizadp no decorrer do seu código
+
+// Operadores
+var valor1 = 5
+var valor2 = 5
+console.log(valor1 + valor2)
+console.log(valor1 - valor2)
+console.log(valor1 * valor2)
+console.log(valor1 / valor2)
+console.log(valor1 ** valor2)
+
+console.log(5 / 2 * (2 + 3))
+
+// Operadores relacionais
+console.log(5 == 5) //Para motrar que é igual: ==
+console.log(5 > 5) //Para motrar que é maior: >
+console.log(22 < 8) //Para motrar que é menor: <
+console.log( 22 <= 22) //Para motrar que é menor ou igual
+console.log(22 != 23) //Para motrar que é diferente: !=
+console.log('A' == 'A')
+console.log(true == false)
+console.log(true === true)
+console.log(true === 'true') // boolean e o outro e txt > String
+console.log(true != false) //true
+
+let temCamisa = false
+let temCracha = true
+console.log(temCamisa)
+console.log(temCracha)
+console.log(temCamisa == true && temCracha == true) // false e  true 
+console.log(temCamisa == true || temCracha == true) //false ou true = true
