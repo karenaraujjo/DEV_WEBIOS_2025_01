@@ -23,12 +23,12 @@ const PI = 3.14
 // Textos  - Strings (significa textos) =
 // Para inserir textos: var nome = "" ou var nome = ''
 var nome = 'Matheus Araujo'
-var nome = "Matheus Vinicius"
-var nome = '21032002' // Isto é texto, porque está dentro das aspas
-console.log(nome1)
+var nome2 = "Matheus Vinicius"
+var nome3 = '21032002' // Isto é texto, porque está dentro das aspas
+console.log(nome)
 console.log(nome2)
 console.log(nome3)
-console.log(nome1, nome2, nome3) // Para inserir todos os nomes de uma vez, uiliza vírgula.
+console.log(nome, nome2, nome3) // Para inserir todos os nomes de uma vez, uiliza vírgula.
 
 //Pesquisar concatenar
 
@@ -60,7 +60,7 @@ console.log(5 / 2 * (2 + 3))
 console.log(5 == 5) //Para motrar que é igual: ==
 console.log(5 > 5) //Para motrar que é maior: >
 console.log(22 < 8) //Para motrar que é menor: <
-console.log( 22 <= 22) //Para motrar que é menor ou igual
+console.log( 22 <= 22) //Para motrar que é menor ou igual: <=
 console.log(22 != 23) //Para motrar que é diferente: !=
 console.log('A' == 'A')
 console.log(true == false)
@@ -74,3 +74,27 @@ console.log(temCamisa)
 console.log(temCracha)
 console.log(temCamisa == true && temCracha == true) // false e  true 
 console.log(temCamisa == true || temCracha == true) //false ou true = true
+
+
+// Operador de Atribuição
+var x = 3
+var y = 2
+x = x + y
+// x += y formato contraido  
+// x = 3 + 2
+console.log(x)
+
+x = 720
+console.log(x)
+
+// log: serve para mostrar resultados, mensagens do sistema
+//clear: serve para limpar o console e deixar disponivel para novas mensagens 
+
+console.clear()
+
+console.log("Está tudo limpo")
+console.log("Olá mundo")
+
+console.error("Não use essa tela, você pode ser punido por isso.")
+
+console.warn("Mas apresenta uma mensagem em amarelo")
